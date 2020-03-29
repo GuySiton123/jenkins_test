@@ -1,0 +1,11 @@
+1. Create a repository in your github account called "jenkins_test"
+2. Commit a python project to that repo which has some python tests.
+        - grab any example of how to test python.
+        - add just one test that succeeds.
+        - test on the command line to see that everything works.
+3. Configure jenkins with a project and a pipeline which pulls from
+        your repository.
+4. Trigger a jenkins build on that project via the jenkins web gui.
+5. Commit a change to the python repo that breaks the tests.
+6. Repeat stage 4 and ask jenkins to build. See the build fail and the
+        reasons why.
